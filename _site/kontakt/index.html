@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Blisko Siebie</title>
+    <meta name="description" content="Strona coachingowa z blogiem, ofertą i kontaktem">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-branding">
+        <a class="logo-link" href="/">
+          <img class="logo-image" src="/assets/images/logo.svg" alt="Blisko Siebie logo">
+          <div>
+            <span>Blisko Siebie</span>
+            <p>W zgodzie ze sobą</p>
+          </div>
+        </a>
+      </div>
+      <nav class="site-nav">
+        <a href="/">Start</a>
+        <a href="/o-mnie/">O mnie</a>
+        <a href="/oferta/">Oferta</a>
+        <a href="/blog/">Blog</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/kontakt/" class="button button-nav">Kontakt</a>
+      </nav>
+    </header>
+
+    <main class="site-content">
+      <section class="page-header">
+  <h1>Kontakt</h1>
+  <p>Napisz wiadomość, by umówić się na konsultację lub dowiedzieć się więcej o ofercie.</p>
+</section>
+
+<section class="section contact-form-section">
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label for="name">Imię</label>
+    <input type="text" id="name" name="name" required="" />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required="" />
+
+    <label for="message">Wiadomość</label>
+    <textarea id="message" name="message" rows="6" required=""></textarea>
+
+    <button type="submit" class="button button-primary">Wyślij wiadomość</button>
+  </form>
+  <div class="contact-details">
+    <h2>Masz pytanie?</h2>
+    <p>kontakt@bliskosiebie.pl</p>
+    <p>Spotkania online / stacjonarne</p>
+  </div>
+</section>
+
+<p class="note">Uwaga: aby formularz działał, zastąp <code>your-form-id</code> swoim identyfikatorem Formspree lub skonfiguruj inny serwer pocztowy.</p>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Blisko Siebie. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+  </body>
+</html>

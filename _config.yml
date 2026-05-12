@@ -1,0 +1,18 @@
+title: Blisko Siebie
+email: kontakt@bliskosiebie.pl
+description: "Strona coachingowa z blogiem, ofertą i kontaktem"
+baseurl: ""
+url: "https://example.com"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+collections:
+  posts:
+    output: true
+
+permalink: /:categories/:title/
+
+sass:
+  style: compressed

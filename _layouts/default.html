@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-branding">
+        <a class="logo-link" href="{{ '/' | relative_url }}">
+          <img class="logo-image" src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Blisko Siebie logo">
+          <div>
+            <span>Blisko Siebie</span>
+            <p>W zgodzie ze sobą</p>
+          </div>
+        </a>
+      </div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Start</a>
+        <a href="{{ '/o-mnie/' | relative_url }}">O mnie</a>
+        <a href="{{ '/oferta/' | relative_url }}">Oferta</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <a href="{{ '/faq/' | relative_url }}">FAQ</a>
+        <a href="{{ '/kontakt/' | relative_url }}" class="button button-nav">Kontakt</a>
+      </nav>
+    </header>
+
+    <main class="site-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>© {{ site.time | date: "%Y" }} Blisko Siebie. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+  </body>
+</html>
