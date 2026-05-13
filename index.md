@@ -5,9 +5,9 @@ title: Witaj na Blisko Siebie
 
 <section class="hero">
   <div class="hero-copy">
-    <p class="eyebrow">W zgodzie ze Sobą</p>
+    <p class="eyebrow">Blisko Siebie</p>
     <h1>Blisko Siebie</h1>
-    <p>Strona dla osób, które chcą odnaleźć wewnętrzny spokój, pewność siebie i równowagę w życiu.</p>
+    <p>Blisko Siebie to przestrzeń wsparcia i zatrzymania dla rodziców adopcyjnych, zastępczych oraz osób, które chcą lepiej rozumieć siebie, swoje emocje i relacje.</p>
     <a class="button button-primary" href="/kontakt/">Umów się na konsultację</a>
   </div>
   <div class="hero-image">
@@ -16,60 +16,52 @@ title: Witaj na Blisko Siebie
 </section>
 
 <section class="section intro">
-  <div class="section-grid">
-    <article>
-      <h2>O mnie</h2>
-      <p>Jestem coachem, który wspiera Cię w podejmowaniu świadomych decyzji, osiąganiu celów i budowaniu większej pewności siebie.</p>
-      <a href="/o-mnie/" class="link">Dowiedz się więcej</a>
-    </article>
-    <article>
-      <h2>Oferta</h2>
-      <p>Sesje coachingowe nastawione na zmianę, rozwój osobisty i praktyczne kroki prowadzące do lepszego życia.</p>
-      <a href="/oferta/" class="link">Zobacz ofertę</a>
-    </article>
-    <article>
-      <h2>Blog</h2>
-      <p>Inspirujące artykuły o uważności, relacjach i pracy nad sobą, napisane prostym i praktycznym językiem.</p>
-      <a href="/blog/" class="link">Przejdź do bloga</a>
-    </article>
+  <div>
+    <p>Wiem z własnego doświadczenia, że rodzicielstwo — szczególnie adopcyjne i zastępcze — niesie ze sobą całą gamę emocji, rodzi i zmusza do pytań często nie dając na nie odpowiedzi.</p>
+    <p>Nierzadko towarzyszy zmęczenie i ciężar odpowiedzialności. Często pojawia się poczucie samotności, przeciążenia czy wątpliwość: „czy robię wystarczająco?”</p>
+    <p>Wiem, jak wiele niewidzialnego napięcia niesie rodzicielstwo adopcyjne i zastępcze. Wiem też, jak często możemy czuć się osamotnieni. Nie dlatego, że obok nie ma ludzi — ale dlatego, że trudno znaleźć prawdziwe zrozumienie.</p>
+    <p>To, z czym mierzymy się my, rodzice adopcyjni i zastępczy, często bardzo różni się od wyzwań, których doświadczają nasi znajomi czy rodzina. Czasami trudno opowiedzieć o swoim zmęczeniu, lęku, bezsilności czy emocjach tak, by zostać naprawdę usłyszanym — bez oceniania, rady i zderzenia ze stereotypami.</p>
+    <p>Właśnie dlatego powstało Blisko Siebie. Możesz zatrzymać się i usłyszeć to, co na co dzień ginie w chaosie, obowiązkach i napięciu. Dostrzec to, co naprawdę dzieje się w Tobie. Blisko Siebie to spotkanie ze sobą. Z własnymi emocjami, potrzebami, zmęczeniem, tęsknotą i siłą.</p>
   </div>
 </section>
 
 <section class="section about-panel">
   <div>
-    <h2>Co oferuję?</h2>
-    <p>Wierzę, że każdy ma w sobie zasoby, aby żyć pełniej. Wspieram Cię w znajdowaniu swoich potrzeb, budowaniu zdrowych granic i odnajdywaniu harmonii.</p>
+    <h2>To spokojna przestrzeń</h2>
+    <ul>
+      <li>dla rodziców adopcyjnych i zastępczych</li>
+      <li>dla osób przeciążonych emocjonalnie</li>
+      <li>dla tych, którzy chcą być bliżej siebie i swoich potrzeb</li>
+    </ul>
   </div>
 </section>
 
 <section class="section testimonials-panel">
-  <div class="section-grid">
-    <article class="testimonial-card">
-      <p>„Czułam, że idę w złym kierunku. Dzięki coachingu poczułam większą jasność i spokój w decyzjach.”</p>
-      <p class="testimonial-author">– Anna, klientka</p>
-    </article>
-    <article class="testimonial-card">
-      <p>„Sesje pomogły mi uporządkować priorytety i rzeczywiście zacząć działać krok po kroku.”</p>
-      <p class="testimonial-author">– Marta</p>
-    </article>
+  <div>
+    <h2>Tutaj nie musisz</h2>
+    <ul>
+      <li>walczyć o zrozumienie</li>
+      <li>niczego udowadniać</li>
+      <li>tłumaczyć swoich emocji</li>
+      <li>obalać mitów ani mierzyć się ze stereotypami</li>
+    </ul>
+    <p>Tutaj możesz po prostu być. Możesz zatrzymać się i usłyszeć to, co na co dzień ginie w chaosie, obowiązkach i napięciu. To, co naprawdę dzieje się w Tobie. Blisko Siebie to spotkanie ze sobą. Z własnymi emocjami, potrzebami, zmęczeniem, tęsknotą i siłą.</p>
+    <p>Nie daję gotowych odpowiedzi. Tworzę spokojną przestrzeń, w której możesz lepiej zrozumieć siebie i odnaleźć własną drogę — w swoim tempie i bez oceniania.</p>
   </div>
 </section>
 
 <section class="section featured-posts">
-  <div class="section-header">
-    <h2>Polecane artykuły</h2>
-    <p>Praktyczne wpisy coachingowe, które warto przeczytać na start.</p>
-  </div>
-  <div class="posts-list">
-    {% assign featured = site.posts | where: "featured", true | sort: "date" | reverse %}
-    {% for post in featured limit:3 %}
-    <article class="post-card">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="post-meta">{{ post.date | date: "%d %B %Y" }}</p>
-      <p>{{ post.excerpt }}</p>
-      <a class="link" href="{{ post.url }}">Czytaj dalej</a>
-    </article>
-    {% endfor %}
+  <div>
+    <h2>W mojej pracy stawiam na</h2>
+    <ul>
+      <li>obecność</li>
+      <li>empatię</li>
+      <li>uważne słuchanie</li>
+      <li>budowanie świadomości</li>
+      <li>relację opartą na zaufaniu i bezpieczeństwie</li>
+    </ul>
+    <p>To nie terapia. To świadoma, wspierająca rozmowa i przestrzeń do odzyskiwania kontaktu ze sobą. Tutaj możesz wracać do siebie — krok po kroku i w swoim tempie. Tylko Ty, Twoje emocje i chwila, by naprawdę usłyszeć siebie.</p>
+    <p>Pracuję w oparciu o standardy International Coaching Federation, prowadząc coaching z uważnością na emocje, relację i autentyczny kontakt. Zapraszam Cię na spotkanie ❤️</p>
   </div>
 </section>
 
