@@ -206,6 +206,18 @@ a {
   padding: 2.5rem 0;
 }
 
+.section.section-tight {
+  padding: 0 0 1rem;
+}
+
+.section.section-tight .content-block {
+  margin-bottom: 1rem;
+}
+
+.section.section-tight .content-block h2 {
+  margin-top: 0.5rem;
+}
+
 .section.section-intro {
   padding-bottom: 1rem;
 }
@@ -280,6 +292,19 @@ a {
 .page-header {
   margin: 3rem 0 2.5rem;
   padding-bottom: 2rem;
+}
+
+.page-header.page-header-tight {
+  margin: 1.5rem 0 1rem;
+  padding-bottom: 0;
+}
+
+.page-header.page-header-tight + .section {
+  padding-top: 0.75rem;
+}
+
+.page-header.page-header-tight + .section.section-tight .content-block h2 {
+  margin-top: 0.5rem;
 }
 
 .page-header h1 {

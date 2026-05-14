@@ -4,12 +4,12 @@ title: Oferta
 permalink: /oferta/
 ---
 
-<section class="page-header">
+<section class="page-header page-header-tight">
   <h1>Oferta</h1>
   <p>Coaching dla osób, które chcą rozwijać swoje życie, wzmacniać decyzje i działać z większą jasnością.</p>
 </section>
 
-<section class="section">
+<section class="section section-tight">
   <div class="content-block">
     <h2>Jak pracuję?</h2>
     <ul class="process-list">
