@@ -12,8 +12,8 @@ permalink: /o-mnie/
 <section class="section section-tight">
   <div class="content-block">
     <h2>Moja droga</h2>
-    <p>Z wykształcenia jestem nauczycielką. Studiowałam pedagogikę i socjologię, a zawodowo przez wiele lat byłam związana z pracą w korporacjach.</p>
-    <p>Rodzicielstwo adopcyjne najbardziej zmieniło moje spojrzenie na siebie, drugiego człowieka i emocje. Otworzyło mi oczy na to, z czym naprawdę mierzą się rodzice adopcyjni i zastępczy.</p>
+    <p>Z wykształcenia jestem nauczycielką. Studiowałam pedagogikę i socjologię, a zawodowo przez wiele lat byłam związana z pracą w korporacjach. </p>
+    <p> Jednak to rodzicielstwo adopcyjne najbardziej zmieniło moje spojrzenie na siebie, drugiego człowieka i emocje. Otworzyło mi oczy na to, z czym naprawdę mierzą się rodzice adopcyjni i zastępczy.</p>
   </div>
 
   <div class="content-block">
