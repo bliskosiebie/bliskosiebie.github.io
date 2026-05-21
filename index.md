@@ -8,7 +8,7 @@ title: Witaj na Blisko Siebie
     <p class="eyebrow">Blisko Siebie</p>
     <h1>Wsparcie dla rodziców adopcyjnych, zastępczych i osób, które chcą wrócić do siebie</h1>
     <p>Blisko Siebie to bezpieczna przestrzeń, w której możesz zatrzymać się, porozmawiać i odzyskać kontakt z własnymi emocjami. Pracuję z empatią i szacunkiem, aby pomóc Ci budować zdrowe relacje i szukać rozwiązań dopasowanych do Ciebie.</p>
-    <a class="button button-primary" href="{{ '/kontakt/' | relative_url }}">Umów się na konsultację</a>
+    <a class="button button-primary" href="/kontakt/">Umów się na konsultację</a>
   </div>
 
   <div class="hero-aside">
@@ -91,6 +91,6 @@ title: Witaj na Blisko Siebie
   <div>
     <h2>Skontaktuj się</h2>
     <p>Masz pytania lub chcesz zacząć pracę? Napisz do mnie, a odpowiem najszybciej jak to możliwe.</p>
-    <a class="button button-secondary" href="{{ '/kontakt/' | relative_url }}">Napisz wiadomość</a>
+    <a class="button button-secondary" href="/kontakt/">Napisz wiadomość</a>
   </div>
 </section>
