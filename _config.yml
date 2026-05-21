@@ -1,8 +1,8 @@
 title: Blisko Siebie
 email: kontakt@bliskosiebie.pl
 description: "Coaching online dla rodziców adopcyjnych, rodziców zastępczych i osób przeciążonych emocjonalnie."
-baseurl: ""
-url: "https://example.com"
+baseurl: "/blisko-siebie"
+url: "https://bliskosiebie.github.io"
 theme: minima
 markdown: kramdown
 plugins:

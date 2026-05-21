@@ -13,7 +13,7 @@ permalink: /blog/
   <h2>Kategorie</h2>
   <div class="categories-list">
     {% for category in site.categories %}
-      <a class="category-pill" href="/blog/#{{ category[0] | slugify }}">{{ category[0] }} ({{ category[1].size }})</a>
+      <a class="category-pill" href="{{ '/blog/' | relative_url }}#{{ category[0] | slugify }}">{{ category[0] }} ({{ category[1].size }})</a>
     {% endfor %}
   </div>
 </section>
