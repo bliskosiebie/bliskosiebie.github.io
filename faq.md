@@ -19,9 +19,13 @@ permalink: /faq/
     <h2>Dla kogo są spotkania?</h2>
     <p>Przede wszystkim dla rodziców adopcyjnych, rodziców zastępczych oraz osób przeciążonych emocjonalnie. Pomagam też tym, którzy chcą lepiej rozumieć siebie i swoje emocje.</p>
   </div>
+   <div class="faq-item">
+    <h2>Czy mogę przyjść, jeśli nie jestem rodzicem adopcyjnym lub zastępczym?</h2>
+    <p>Tak. Blisko Siebie jest także dla osób, które czują się przeciążone emocjonalnie, gubią siebie w relacjach lub potrzebują zatrzymania i większego kontaktu ze sobą.</p>
+  </div>
   <div class="faq-item">
     <h2>Z jakimi trudnościami mogę przyjść?</h2>
-    <p>Możesz przyjść m.in. z przeciążeniem emocjonalnym, zmęczeniem, poczuciem samotności, trudnościami w relacji z dzieckiem, bezsilnością, problemem ze stawianiem granic lub zagubieniem w codziennym chaosie emocji i obowiązków. Nie musisz mieć jednego konkretnego problemu.</p>
+    <p>Możesz przyjść m.in. z przeciążeniem emocjonalnym, zmęczeniem, poczuciem samotności, trudnościami w relacji z dzieckiem, bezsilnością, problemem ze stawianiem granic lub zagubieniem w codziennym chaosie emocji i obowiązków. Nie musisz umiec go nazwać. Poszukamy razem.</p>
   </div>
   <div class="faq-item">
     <h2>Jak wygląda pierwsze spotkanie?</h2>
@@ -34,10 +38,6 @@ permalink: /faq/
   <div class="faq-item">
     <h2>Ile spotkań potrzeba?</h2>
     <p>To bardzo indywidualne. Niektórym pomaga jedno spotkanie, inni potrzebują kilku, aby spokojnie przyjrzeć się temu, co dzieje się w ich życiu i emocjach.</p>
-  </div>
-  <div class="faq-item">
-    <h2>Czy mogę przyjść, jeśli nie jestem rodzicem adopcyjnym lub zastępczym?</h2>
-    <p>Tak. Blisko Siebie jest także dla osób, które czują się przeciążone emocjonalnie, gubią siebie w relacjach lub potrzebują zatrzymania i większego kontaktu ze sobą.</p>
   </div>
   <div class="faq-item">
     <h2>Jak odbywają się spotkania?</h2>
